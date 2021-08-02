@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+    margin: 100px auto 0;
+    width: 40vw;
+}
+.container_icon{
+    margin: auto;
+}
+.form_remember{
+    width: 100%;
+    text-align: left;
+}
+.form_btn{
+    height: 50px;
+}
+.form_forgot{
+    justify-content: space-between;
+    display: flex;
+    margin: 14px 4px;
+}
+@media screen and (max-width: 820px) {
+    .container{
+        width: unset;
+    }
+}

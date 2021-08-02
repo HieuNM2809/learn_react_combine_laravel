@@ -1,0 +1,37 @@
+1: Thiết lập môi trường   :npm install -g create-react-app
+2: Tạo project            :npx create-react-app myfirstreact
+3: Di chuyển đến thư mục  :cd myfirstreact
+4: Chạy server            :npm start
+
+
+
+5: tạo route              :npm install react-router-dom
+6: cập nhật lại project   :npm install or npm i
+7: thêm boostrap          :npm install bootstrap reactstrap  ( thêm import 'bootstrap/dist/css/bootstrap.min.css';)
+8: gọi api                :npm install --save axios
+
+
+===================== Material UI
+0:npm install @material-ui/core
+=> Thu vien
+1:npm install @fontsource/roboto
+ =>import '@fontsource/roboto';
+2:npm install @material-ui/icons
+ => import Icon from '@material-ui/core/Icon';
+
+3:add index.html: 
+ <meta
+  name="viewport"
+  content="minimum-scale=1, initial-scale=1, width=device-width"
+ />
+
+
+
+===========================  Build cùng laravel
+
+4. build chạy cùng laravel: react-scripts build  
+	4.1. Route::get('{any}', function () {
+               return view('index'); // or wherever your React app is bootstrapped.
+          })->where('any', '.*');
+        
+	4.2. https://hoanguyenit.com/using-react-in-laravel-8.html

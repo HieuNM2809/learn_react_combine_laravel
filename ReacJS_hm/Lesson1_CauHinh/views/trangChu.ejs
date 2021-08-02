@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React JS</title>
+
+    <!-- react JS CDN -->
+    <!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
+
+    <!-- bable core (seder html) -->
+    <!-- <script src="https://unpkg.com/babel-core@5.8.38/browser.min.js"></script>  -->
+
+   <!-- react JS CDN -->
+    <script crossorigin src="lib/react.development.js"></script>
+    <script crossorigin src="lib/react-dom.development.js"></script>
+
+    <!-- bable core (seder html) -->
+    <script src="lib/browser.min.js"></script>
+
+    <style>
+        .mauVang{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        ReactDOM.render( 
+            <div>
+                <h1 className="mauVang">NGUYEN MINH HIEU</h1> 
+                <h1>NGUYEN MINH HIEU</h1>
+            </div> 
+        , document.getElementById("root"));
+    </script>
+</body>
+</html>
+
+<!-- 
+    -  render phải có 1 div bao lại 
+    -  class thì thay bằng className
+ -->
