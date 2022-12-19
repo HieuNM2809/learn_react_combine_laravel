@@ -1,0 +1,64 @@
+.TableContainer{
+    width: 80%;
+    margin: 25px auto;
+    overflow-x: auto;
+}
+a{
+    text-decoration: none;
+}
+.table_img{
+    height: 100px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+
+
+/* // ==================css img intro */
+
+.container_services {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    width: 100%;
+    height: 110vh;
+    text-align: center;
+    padding-top: 35vh;
+  }
+  
+  .container_products {
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: chartreuse;
+  font-size: 100px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 35vh;
+  }
+  .container_Intro {
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 100px;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 35vh;
+  }
+  
+  @media screen and (min-width:740px) and (max-width:1023px){
+  
+  }
+  /* Trên Mobile  */
+  @media screen and (max-width:739px){
+    .MuiTypography-h1{
+      font-size: 4rem;
+    }
+  }
+  
+  

@@ -1,0 +1,8 @@
+.edit_img{
+    width: 50%;
+    height: 200px;
+}
+.errMsg{
+    color: red;
+    font-style: italic;
+}
